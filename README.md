@@ -1,7 +1,7 @@
 # CSV2VW
 Utility to convert from CSV data files to VW Vowpal Wabbit format. 
 
-Use `go get github.com/stmichaelis/datatools` to download and build the conversion tool. Run `csv2vw -h` from the GOPATH bin directory to see all comandline options.
+Use `go get github.com/stmichaelis/datatools/csv2vw` to download and build the conversion tool. Run `csv2vw -h` from the GOPATH bin directory to see all comandline options.
 
 ## Example
 `csv2vw -i input.csv -o output.csv -l 2 -i ID_ATTRIBUTE -n 4,5,6 -r 8`
